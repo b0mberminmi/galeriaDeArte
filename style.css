@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Cambiar la fuente para todo el sitio */
+body {
+    font-family: Arial, sans-serif; /* Utiliza Arial o una fuente genérica sans-serif */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #555;
+}
+
+.split {
+    float: right;
+}
+
+.tab-pane {
+    display: none;
+}
+
+/* Establece un tamaño máximo para las imágenes */
+.artwork img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.footer {
+    background-color: #888; /* Cambia el color gris según tus preferencias */
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px; /* Espaciado interno para el pie de página */
+}

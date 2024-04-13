@@ -1,13 +1,13 @@
 /* styles.css */
 
-/* Cambiar la fuente para todo el sitio */
+/* Cambiar fuente para toda la web */
 body {
-    font-family: Arial, sans-serif; /* Utiliza Arial o una fuente genérica sans-serif */
+    font-family: Arial, sans-serif;
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #f0f0f0;
+    background-color: #F2E3CE;
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ header {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: #C5733D;
     overflow: hidden;
 }
 
@@ -37,26 +37,61 @@ header {
 }
 
 .topnav a:hover {
-    background-color: #555;
+    background-color: #C45824;
 }
 
 .split {
     float: right;
 }
 
-.tab-pane {
-    display: none;
+/* Estilos CSS para personalizar tu landing page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
-/* Establece un tamaño máximo para las imágenes */
-.artwork img {
+h1, h2, h3, h4 {
+    color: #C45824;
+}
+
+h4 {
+    font-style: italic; /* Cursiva */
+    font-size: 15px;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    transition: transform 0.5s ease;
     max-width: 100%;
     max-height: 200px;
 }
 
+.tab-pane {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Tamaño máximo para las imágenes */
+.artwork img {
+    max-width: 100%;
+    max-height: 200px;
+    }
+
+
 .footer {
-    background-color: #888; /* Cambia el color gris según tus preferencias */
-    color: white; /* Cambia el color del texto si es necesario */
-    text-align: center; /* Alinea el texto al centro */
-    padding: 20px; /* Espaciado interno para el pie de página */
+    background-color: #959B76;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
